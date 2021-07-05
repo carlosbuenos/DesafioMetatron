@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DesafioMetatron.Api</name>
+    </assembly>
+    <members>
+        <member name="M:DesafioMetatron.Api.Controllers.CategoriaController.BuscarCategorias">
+            <summary>
+            Buscar todas as categorias
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DesafioMetatron.Api.Controllers.CategoriaController.BuscarCategoriasPorId(System.Int32)">
+            <summary>
+            Buscar categoria por Id
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DesafioMetatron.Api.Controllers.CategoriaController.CriarCategorias(DesafionMetatron.Domain.Categoria)">
+            <summary>
+            Criar uma categoria.
+            </summary>
+            <param name="categoria"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DesafioMetatron.Api.Controllers.ListaController.BuscarListaPorCategoriaAsync(System.Int32)">
+            <summary>
+            Buscar listas por categoria utilizando o id da categoria.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DesafioMetatron.Api.Controllers.ListaController.BuscarListaPorNomeAsync(System.String)">
+            <summary>
+            Buscar listas por nome.
+            </summary>
+            <param name="nome"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DesafioMetatron.Api.Controllers.ListaController.CriarLista(DesafionMetatron.Domain.Lista)">
+            <summary>
+            Criar uma lista de tarefas.
+            </summary>
+            <param name="lista"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DesafioMetatron.Api.Controllers.ListaController.AlterarLista(DesafionMetatron.Domain.Lista)">
+            <summary>
+            Alterar umalista de tarefas.
+            </summary>
+            <param name="lista"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DesafioMetatron.Api.Controllers.ListaController.RemoverLista(System.Int32)">
+            <summary>
+            Excluir uma lista de tarefas.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DesafioMetatron.Api.Controllers.TarefaController.BuscarTarefaPorListaAsync(System.Int32)">
+            <summary>
+            Permite buscar todas as tarefas relacionadas a uma lista especifica
+            sem retornar o objeto lista junto.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DesafioMetatron.Api.Controllers.TarefaController.BuscarTarefaPorUsuarioAsync(System.Int32)">
+            <summary>
+            Permite buscar todas as tarefas atribuidas a um usuariuo especifico
+            sem retornar o objeto lista junto.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DesafioMetatron.Api.Controllers.TarefaController.CriarTarefa(DesafionMetatron.Domain.Tarefa)">
+            <summary>
+            Permite criar uma tarefa
+            </summary>
+            <param name="tarefa"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DesafioMetatron.Api.Controllers.TarefaController.AlterarTarefa(DesafionMetatron.Domain.Tarefa)">
+            <summary>
+            Permite alterar uma tarefa
+            </summary>
+            <param name="tarefa"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DesafioMetatron.Api.Controllers.TarefaController.RemoverTarefa(System.Int32)">
+            <summary>
+            Permite excluir uma tarefa
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DesafioMetatron.Api.Controllers.UsuarioController.BuscarTodosUsuarios">
+            <summary>
+            Permite buscar todos os usuarios
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DesafioMetatron.Api.Controllers.UsuarioController.GerarToken(DesafionMetatron.Domain.Login)">
+            <summary>
+            permite gerar um token para um usuario existente.
+            </summary>
+            <param name="login"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:DesafioMetatron.Api.Controllers.UsuarioController.CriarUsuario(DesafionMetatron.Domain.Usuario)" -->
+    </members>
+</doc>
