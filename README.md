@@ -6,8 +6,8 @@ na pagina do swagger foi configurado a capácidade de enviar tokens no header.</
 
 
 A controller de usuario não está bloqueada por autenticação para facilitar a utilização sem um front end,
-nela é possivel consultar, cadastrar e gerar token para um usuario. todos os outros metodos estão protegidos por autenticação,
-sendo necessario ter um token gerado e inmformado via header o padrão é Bearer.
+nela é possível consultar, cadastrar e gerar token para um usuario. todos os outros métodos estão protegidos por autenticação,
+sendo necessário ter um token gerado e informado via header, o padrão é Bearer.
 
 
 
